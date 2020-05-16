@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>表单交互练习</title>
+</head>
+<body>
+<form>
+<label>进行注册:</label><br />
+<label>账号</label><input type="text" name="账号"/><br />
+<label>密码</label><input type="password" name="密码"/><br />
+<label>请输入你对此的建议:</label><br />
+<textarea rows="10" cols="30">请输入你的建议……</textarea><br />
+<label>你喜欢的颜色:</label><br />
+<input type="radio" name="color" value="red">red<br />
+<input type="radio" name="color" value="blue">blue<br />
+<input type="radio" name="color" value="yellow">yellow<br />
+<label>你喜欢的运动:</label><br />
+<input type="checkbox" name="sport" value="basketball">basketball<br />
+<input type="checkbox" name="sport" value="football">football<br />
+<input type="checkbox" name="sport" value="volleyball">volleyball<br />
+<input type="checkbox" name="sport" value="running">running<br />
+<label>你喜欢的电影:</label><br />
+<select>
+	<option value="砰然心动" selected="selected">怦然心动</option><br />
+	<option value="疯狂外星人">疯狂外星人</option><br />
+	<option value="姜子牙">姜子牙</option><br />
+</select><br />
+<label>你喜欢的电影角色:</label><br />
+<select multiple="multiple">
+	<option value="mary">mary</option>
+	<option value="bob">bob</option>
+	<option value="cat">cat</option>
+</select><br />
+<lebel>你对什么运动感兴趣:</lebel><br />
+   <label for="run">慢跑</label>
+  <input type="radio" name="gender" id="run" />
+  <br />
+  <label for="moun">登山</label>
+  <input type="radio" name="gender" id="moun" />
+  <br />
+  <label for="ball">篮球</label>
+  <input type="radio" name="gender" id="ball" />
+  <br />
+<input type="submit" name="提交">&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" name="重置">
+</body>
+</html>

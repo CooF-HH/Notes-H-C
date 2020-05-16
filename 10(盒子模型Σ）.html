@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>元素</title>
+<style type="text/css">
+div,p{width: 200px;
+	background:pink;}
+a{  width: 200px;
+	display:block;
+    background:pink;
+    }/*将内联设置为块状元素*/
+h3{ display: inline;
+	background: pink;
+	}/*将块状设置为内联元素*/
+h2{ display: inline-block;}/*内联块状元素*/
+.first{ width: 500px;
+		border-width:2px;
+		border-style:solid;
+		border-color: :black; 
+		text-align: center;}
+.second{ border-top: 20px red; 
+		border-left: 50px pink;
+		border-bottom: 20px red;
+		border-right: 50px pink; 
+		border-style: solid;
+		text-align: center; }
+li{
+   border-right: 10px solid pink;
+    border-top: 10px solid #521;
+    border-bottom: 10px solid #521;
+    border-left:10px solid pink;
+    width:300px;
+    height:30px;
+    text-align: center;
+}
+.third{
+		border-top: 20px red; 
+		border-left: 20px pink;
+		border-bottom: 20px red;
+		border-right: 20px pink;
+		padding-top:20px;
+  	 	padding-right:20px;
+   		padding-bottom:20px;
+   		padding-left:20px;
+   		border-style: solid;
+   		text-align: center;
+}
+#forth{
+    width:300px;
+    height:300px;
+	border:10px solid red;	
+}
+#box2{
+    width:300px;
+    height:300px;
+	border:10px solid red;	
+	padding: 30px;
+}
+#forth{margin-bottom:50px; }
+</style>
+</head>
+<body>
+<div>第一块</div>
+<div>第二块</div>
+<p>斯人若彩虹，遇上方知有</p>
+<a>快乐每一天</a>
+<h3>开心每一天</h3>
+<form><input type="text" name="MyName" >注册</form>
+<h4 class="first">无权代理</h4>
+<h4 class="second">有权代理</h4>
+<ul>
+    <li>别让不会说话害了你</li>
+    <li>二十七八岁就应该有的见识</li>
+    <li>别让不好意思害了你</li>
+</ul>
+<h4 class="third">通过法律代理</h4>
+<h4 id="forth">box1</h4>
+<h4 id="box2">box2</h4>   
+</body>
+</html>

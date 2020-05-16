@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>css布局样式</title>
+<style type="text/css">
+#first{
+    width:200px;
+    height:200px;
+	border:3px black solid;
+	position:absolute;
+    right:100px;
+    top:100px;
+}/*绝对定位*/
+#second{
+    width:200px;
+    height:200px;
+	border:3px red solid;
+	position:relative;
+	left:100px;
+    top:92px;/*与绝对定位差8出现同样高度,与其他因素无关*/
+}/*相对定位*/
+#third{
+    width:200px;
+    height:200px;
+	border:2px blue solid;
+	position:fixed;
+    bottom:10px;
+    right: 10px;
+}/*固定定位*/
+#third{
+</style>
+</head>
+<body>
+<div id="first"></div><!--绝对定位-->
+<div id="second"></div>
+<span>偏移前的位置还保留不动，覆盖不了前面的div没有偏移前的位置</span><!--相对定位--> 
+<div id="third"></div>
+	<p>文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本。</p>
+    <p>文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本。</p>
+    <p>文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本。</p>
+    <p>文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本。</p>
+    <p>文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本。</p>
+    <p>文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本。</p>
+    <p>文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本。</p>
+
+</body>
+</html>
